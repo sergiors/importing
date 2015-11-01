@@ -1,5 +1,6 @@
 {
   "name": "sergiors/importing",
+  "description": "Import your xls, xlt, xlsx, cvs files easily",
   "license": "MIT",
   "authors": [
     {

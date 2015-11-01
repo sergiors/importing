@@ -1,5 +1,6 @@
 Importing
 ---------
+Import your xls, xlt, xlsx, xlsm, xltx, xltm, cvs (uff) files easily.
 
 Install
 -------
