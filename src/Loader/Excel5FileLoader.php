@@ -9,7 +9,8 @@ use PHPExcel_Reader_Excel5;
 class Excel5FileLoader extends ExcelFileLoader
 {
     /**
-     * {@inheritdoc}
+     * @param string $file
+     * @return \PHPExcel
      */
     protected function loadFile($file)
     {

@@ -9,7 +9,8 @@ use PHPExcel_Reader_CSV;
 class CsvFileLoader extends ExcelFileLoader
 {
     /**
-     * {@inheritdoc}
+     * @param string $file
+     * @return \PHPExcel
      */
     protected function loadFile($file)
     {

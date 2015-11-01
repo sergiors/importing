@@ -9,7 +9,9 @@ use Symfony\Component\Config\Loader\FileLoader;
 abstract class ExcelFileLoader extends FileLoader
 {
     /**
-     * {@inheritdoc}
+     * @param string $file
+     * @param string $type
+     * @return array
      */
     public function load($file, $type = null)
     {
