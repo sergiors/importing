@@ -1,5 +1,7 @@
 Importing
 ---------
+[![Build Status](https://travis-ci.org/sergiors/importing.svg?branch=master)](https://travis-ci.org/sergiors/importing)
+
 Import your xls, xlt, xlsx, xlsm, xltx, xltm, cvs (uff) files easily.
 
 Install
