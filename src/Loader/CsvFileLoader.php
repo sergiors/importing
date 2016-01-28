@@ -1,4 +1,5 @@
 <?php
+
 namespace Sergiors\Importing\Loader;
 
 use PHPExcel_Reader_CSV;
@@ -10,11 +11,13 @@ class CsvFileLoader extends ExcelFileLoader
 {
     /**
      * @param string $file
+     *
      * @return \PHPExcel
      */
     protected function loadFile($file)
     {
         $reader = new PHPExcel_Reader_CSV();
+
         return $reader->load($file);
     }
 

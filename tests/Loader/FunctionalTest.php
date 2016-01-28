@@ -1,4 +1,5 @@
 <?php
+
 namespace Sergiors\Importing\Loader;
 
 use Symfony\Component\Config\Loader\LoaderResolver;
@@ -14,7 +15,7 @@ class FunctionalTest extends \PHPUnit_Framework_TestCase
         $loaders = [
             new Excel2007FileLoader(new FileLocator()),
             new Excel5FileLoader(new FileLocator()),
-            new CsvFileLoader(new FileLocator())
+            new CsvFileLoader(new FileLocator()),
         ];
 
         $resolver = new LoaderResolver($loaders);

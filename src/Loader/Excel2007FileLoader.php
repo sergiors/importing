@@ -1,4 +1,5 @@
 <?php
+
 namespace Sergiors\Importing\Loader;
 
 use PHPExcel_Reader_Excel2007;
@@ -10,12 +11,15 @@ class Excel2007FileLoader extends ExcelFileLoader
 {
     /**
      * @param string $file
+     *
      * @return \PHPExcel
+     *
      * @throws \PHPExcel_Reader_Exception
      */
     protected function loadFile($file)
     {
         $reader = new PHPExcel_Reader_Excel2007();
+
         return $reader->load($file);
     }
 
