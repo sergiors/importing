@@ -1,10 +1,13 @@
 <?php
 
-namespace Sergiors\Importing\Loader;
+namespace Sergiors\Importing\Tests\Loader;
 
 use Symfony\Component\Config\Loader\LoaderResolver;
 use Symfony\Component\Config\Loader\DelegatingLoader;
 use Symfony\Component\Config\FileLocator;
+use Sergiors\Importing\Loader\Excel2007FileLoader;
+use Sergiors\Importing\Loader\Excel5FileLoader;
+use Sergiors\Importing\Loader\CsvFileLoader;
 
 class FunctionalTest extends \PHPUnit_Framework_TestCase
 {

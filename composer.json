@@ -1,34 +1,34 @@
 {
-  "name": "sergiors/importing",
-  "description": "Import your xls, xlt, xlsx, cvs files easily",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Sérgio Rafael Siqueira",
-      "email": "sergio@inbep.com.br"
+    "name": "sergiors/importing",
+    "description": "Import your xls, xlt, xlsx, cvs files easily",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sérgio Rafael Siqueira",
+            "email": "sergio@inbep.com.br"
+        }
+    ],
+    "require": {
+        "phpoffice/phpexcel": "~1.8",
+        "symfony/config": "~2.7|~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8",
+        "pdepend/pdepend": "~2.0",
+        "phing/phing": "~2.10",
+        "phploc/phploc": "~2.1",
+        "phpmd/phpmd": "~2.2",
+        "sebastian/phpcpd": "~2.0",
+        "squizlabs/php_codesniffer": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sergiors\\Importing\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sergiors\\Importing\\Tests\\": "tests"
+        }
     }
-  ],
-  "require": {
-    "phpoffice/phpexcel": "~1.8",
-    "symfony/config": "~2.7|~3.0"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "~4.8",
-    "pdepend/pdepend": "~2.0",
-    "phing/phing": "~2.10",
-    "phploc/phploc": "~2.1",
-    "phpmd/phpmd": "~2.2",
-    "sebastian/phpcpd": "~2.0",
-    "squizlabs/php_codesniffer": "~2.1"
-  },
-  "autoload": {
-    "psr-4": {
-      "Sergiors\\Importing\\": "src"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Sergiors\\Importing\\": "tests"
-    }
-  }
 }

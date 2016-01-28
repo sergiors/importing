@@ -9,9 +9,4 @@ end_of_line = lf
 insert_final_newline = true
 charset = utf-8
 indent_style = space
-
-[*.{php,html,twig,xml,yml}]
 indent_size = 4
-
-[*.{json,scss,css,js}]
-indent_size = 2
